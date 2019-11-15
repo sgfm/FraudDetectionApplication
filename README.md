@@ -2,7 +2,7 @@
 
 ## Overview
 
-This was a collaboration with Richard Chan and Ethan Lemus.
+This was a collaboration with [Richard Chan](https://github.com/chanrl) and [Ethan Lemus](https://github.com/poxlox).
 
 The goal of this case study was to create a complete fraud detection application that could interpret, display, and store fraud predictions. For each of these smaller pieces there was a respective architechture that was built namely an accurate machine learning model, a web application, and a database system. The web application was created using Flask and ran on an AWS EC2 instance. The database was constructed using MongoDB. The sections below intail how the model was developed.
 
