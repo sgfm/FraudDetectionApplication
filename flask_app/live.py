@@ -4,8 +4,8 @@ class EventAPIClient:
     """Realtime Events API Client"""
     
     def __init__(self, first_sequence_number=0,
-                 api_url = 'https://hxobin8em5.execute-api.us-west-2.amazonaws.com/api/',
-                 api_key = 'vYm9mTUuspeyAWH1v-acfoTlck-tCxwTw9YfCynC',
+                 api_url = 'API_URL',
+                 api_key = 'API_KEY',
                  db = None):
         """Initialize the API client."""
         self.next_sequence_number = first_sequence_number
