@@ -1,10 +1,10 @@
-# FraudDetectionCaseStudy
+# Fraud Detection Application
 
 ## Overview
 
 This was a collaboration with [Richard Chan](https://github.com/chanrl) and [Ethan Lemus](https://github.com/poxlox).
 
-The goal of this case study was to create a complete fraud detection application that could interpret, display, and store fraud predictions. For each of these smaller pieces there was a respective architechture that was built namely an accurate machine learning model, a web application, and a database system. The web application was created using Flask and ran on an AWS EC2 instance. The database was constructed using MongoDB. The sections below intail how the model was developed.
+The goal of this project was to create a complete fraud detection application that could interpret, display, and store fraud predictions. For each of these smaller pieces there was a respective architechture that was built namely an accurate machine learning model, a web application, and a database system. The web application was created using Flask and ran on an AWS EC2 instance. The database was constructed using MongoDB. The sections below intail how the model was developed.
 
 ## Process Flow
 
@@ -36,7 +36,7 @@ Validation was conducted by comparing our models prediction of the test data sub
 
 Using GridSearchCV from sklearn, we input a range of values on a couple of parameters that are usually hypertuned for random forest and gradient boosted models. We then choose best parameters chosen by GridSearchCV.
 
-##Results
+## Results
 
 The model that was the most accurate was a Gradient Boosted model trained with SMOTE oversampling. The accuracy was 98.7% with a precision of 95.4% and recall of 91.2% at a threshold of 50%.
 
